@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/syncglob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sync lightweight glob statistics from stdin samples.",
+  "bin": {
+    "syncglob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/syncglob.git"
+  },
+  "homepage": "https://theworker02.github.io/syncglob/",
+  "keywords": [
+    "sync",
+    "glob",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
